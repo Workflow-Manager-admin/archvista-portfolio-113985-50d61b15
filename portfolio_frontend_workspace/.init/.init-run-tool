@@ -1,0 +1,4 @@
+{
+    "command": "PORT=<port> BROWSER=none npm start",
+    "working_directory": "/home/kavia/workspace/code-generation/archvista-portfolio-113985-50d61b15/portfolio_frontend_workspace/portfolio_frontend"
+}
