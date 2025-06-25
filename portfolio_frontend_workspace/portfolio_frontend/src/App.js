@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import Hero3D from './Hero3D'; // 3D visual hero centerpiece
 
 // Modern, accessible navigation bar and SPA section scaffolding
 
@@ -69,6 +70,8 @@ function App() {
       </nav>
       <main>
         <section id="home" className="container hero section-section" tabIndex="-1" aria-labelledby="home-heading">
+          {/* Add the 3D Hero visual component using react-three-fiber */}
+          <Hero3D />
           <div className="subtitle" style={{color: "#e67e22"}}>Freelance Architect</div>
           <h1 className="title" id="home-heading" style={{color: "#2c3e50"}}>Hello, I'm <span style={{color: "#e67e22"}}>Alex Morgan</span></h1>
           <div className="description">
